@@ -17,7 +17,7 @@ class CreateTwitterAccountTable extends Migration
             $table->increments('id');
             $table->string('twitter_account');
             $table->integer('user_id');
-            $table->timestamps('created_at');
+            $table->timestamps();
         });
     }
 

@@ -17,7 +17,7 @@ class CreateUsersTable extends Migration
             $table->increments('id');
             $table->string('user_name');
             $table->string('user_password');
-            $table->timestamps('created_at')->nullable(false);
+            $table->timestamps();
         });
     }
 
