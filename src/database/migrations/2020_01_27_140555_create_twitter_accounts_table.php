@@ -13,7 +13,7 @@ class CreateTwitterAccountTable extends Migration
      */
     public function up()
     {
-        Schema::create('twitter_account', function (Blueprint $table) {
+        Schema::create('twitter_accounts', function (Blueprint $table) {
             $table->increments('id');
             $table->string('regist_twitter_account');
             $table->integer('register_user_id');

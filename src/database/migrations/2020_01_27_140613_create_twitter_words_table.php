@@ -13,7 +13,7 @@ class CreateTwitterWordTable extends Migration
      */
     public function up()
     {
-        Schema::create('twitter_word', function (Blueprint $table) {
+        Schema::create('twitter_words', function (Blueprint $table) {
             $table->increments('id');
             $table->string('regist_twitter_word');
             $table->integer('register_user_id');
